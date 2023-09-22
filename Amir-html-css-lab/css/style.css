@@ -1,0 +1,278 @@
+
+/*
+Q#: All the elements have margin of 0 from the top, bottom, left, and right
+*/
+* {
+    margin: 0;
+}
+
+/*
+Q#: HTML5 new elements should be displayed as block-level elements for old browsers
+*/
+header, nav, main, footer, article, section, figure, figcaption {
+    display: block;
+}
+
+/*
+Q#: Body element styling
+*/
+body {
+    color: #333; /* Example text color, it can be changed as per preference */
+    background-image: url("assets/images/pool.jpg"); /* Example background image path, it can be changed as per preference */
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+/*
+Q#: Div container styling
+*/
+.container {
+    width: 950px;
+    margin: 5px auto;
+    background-color: #f4f4f4; /* Example background color, it can be changed as per preference */
+}
+
+/*
+Q#: Content class styling
+*/
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+/*
+Q#: Header, Nav, and Footer styling
+*/
+header, nav, footer {
+    background-color: #333; /* Example background color, it can be changed as per preference */
+    color: #fff; /* Example foreground color, it can be changed as per preference */
+}
+
+/*
+Q#: Unordered List in Nav Element Styling
+*/
+nav ul {
+    padding: 5px;
+}
+
+/*
+Q#: List Items in Main Navigation Styling
+*/
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+/*
+Q#: Anchor Tags in Navigation Items Styling
+*/
+nav ul li a:link {
+    color: #fff; /* Example color, it can be changed as per preference */
+}
+
+nav ul li a:visited {
+    color: #ccc; /* Example color, it can be changed as per preference */
+}
+
+nav ul li a:hover {
+    color: #bbb; /* Example color, it can be changed as per preference */
+}
+
+nav ul li a:active {
+    color: #aaa; /* Example color, it can be changed as per preference */
+}
+
+/*
+Q#: Anchor Element Styling
+*/
+a {
+    color: #333; /* Example color, it can be changed as per preference */
+    text-decoration: none;
+}
+
+/*
+Q#: Headings Styling
+*/
+h1, h2, h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #444; /* Example color, it can be changed as per preference */
+}
+
+/*
+Q#: Custom Class "img-centre" Styling
+*/
+.img-centre {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+/*
+Q#: Audio and Video Elements Styling
+*/
+audio, video {
+    display: block;
+    margin: 10px auto;
+}
+
+/*
+Q#: Table Element Styling
+*/
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+/*
+Q#: Table Data and Header Elements Styling
+*/
+td, th {
+    border: 1px solid #ddd; /* Example border, it can be changed as per preference */
+    padding: 2px 5px;
+    background-color: #f9f9f9; /* Example background color, it can be changed as per preference */
+}
+
+/*
+Q#: Table Header and Footer Data Elements Styling
+*/
+thead th, tfoot td {
+    text-transform: uppercase;
+    background-color: #333; /* Example background color, it can be changed as per preference */
+    color: #fff; /* Example color, it can be changed as per preference */
+}
+
+/*
+Q#: Definition Term Element Styling
+*/
+dt {
+    font-weight: bold;
+}
+
+/*
+Q#: Footer Element Styling
+*/
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+/*
+Q#: IFrame Element Styling
+*/
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+/*
+Q#: Fieldset Element Styling
+*/
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #ddd; /* Example border, it can be changed as per preference */
+    background-color: #f9f9f9; /* Example background color, it can be changed as per preference */
+}
+
+/*
+Q#: Legend Element Styling
+*/
+legend {
+    font-style: italic;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 5px; /* Example border radius, it can be changed as per preference */
+    color: #333; /* Example color, it can be changed as per preference */
+    background-color: #f9f9f9; /* Example background color, it can be changed as per preference */
+}
+
+/*
+Q#: Input Element (submit type) Styling
+*/
+input[type='submit'] {
+    border: 1px solid #ddd; /* Example border, it can be changed as per preference */
+    padding: 5px;
+    background-color: #333; /* Example background color, it can be changed as per preference */
+    color: #fff; /* Example color, it can be changed as per preference */
+    cursor: pointer;
+}
+
+/*
+Q#: Same Input Element (submit type) with Hover State Styling
+*/
+input[type='submit']:hover {
+    background-color: #555; /* Example hover background color, it can be changed as per preference */
+    color: #fff; /* Example hover color, it can be changed as per preference */
+}
+/* 1. Display HTML5 new elements as block-level elements */
+header, nav, main, footer, article, section, figure, figcaption {
+    display: block;
+}
+
+/* 2. Style the <body> element */
+body {
+    color: #000; /* Placeholder color, to be replaced with the preferred color */
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin: 0;
+    background-color: #e6e6e6; /* Placeholder color, to be replaced with the preferred color */
+    background-image: url('background.jpg'); /* Placeholder image, to be replaced with the preferred image */
+}
+
+/* 3. Style the <div> element with class â€œcontainerâ€ */
+.container {
+    width: 950px;
+    max-width: 1300px;
+    margin: 5px auto;
+}
+
+/* 4. Style any element with class value of â€œcontentâ€ */
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+/* 5. Style the â€œheader, nav, and footerâ€ elements */
+header, nav, footer {
+    background-color: #333; /* Placeholder color, to be replaced with the preferred color */
+    color: #fff; /* Placeholder color, to be replaced with the preferred color */
+}
+
+/* 6. Style the unordered list element <ul> which is inside <nav> element */
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+/* 7. Style the list items <li> of the main navigation */
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+/* 8. Add the 4 pseudo classes effect to the anchor tags/elements of the main navigation list items */
+nav a:link, nav a:visited {
+    color: #000; /* Placeholder color, to be replaced with the preferred color */
+}
+
+nav a:hover, nav a:active {
+    color: #ff0000; /* Placeholder color, to be replaced with the preferred color */
+}
+
+/* 9. Style any anchor <a> element */
+a {
+    color: #000; /* Placeholder color, to be replaced with the preferred color */
+    text-decoration: none;
+}
+
+/* 10. Style the three headings: h1, h2, and h3 */
+h1, h2, h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #333; /* Placeholder color, to be replaced with the preferred color */
+}
+
+/* Continue with the remaining instructions... */
