@@ -12,7 +12,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 /* Q2 2. The <body> element has to be styled with: */
 body {
-    color: #333333; /*2)a) Any colour you prefer for the text */
+    color: #705858; /*2)a) Any colour you prefer for the text */
     background-image: url('../assets/images/dark-woods/dark-wood5.jpg'); /*A background image*/
     font-family: Arial, Helvetica, sans-serif; /* c) 3 front family options d) Margin 0 at the first rule*/
 }
@@ -79,7 +79,7 @@ a {
 h1, h2, h3 {
     margin: 10px; /* a. To have margin of 10px for all the sides */
     text-transform: uppercase; /* b. With Uppercase letters */
-    color: #171622; /* c. Different dark/light colour. (Change this value as per your design preference) */
+    color: #3a3763; /* c. Different dark/light colour. (Change this value as per your design preference) */
 }
 
 /* Q11: Style the custom class named “img-centre”: */
